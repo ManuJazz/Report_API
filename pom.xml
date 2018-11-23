@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>io.swagger</groupId>
   <artifactId>swagger-jaxrs-server</artifactId>
-  <packaging>jar</packaging>
+  <packaging>war</packaging>
   <name>swagger-jaxrs-server</name>
   <version>1.0.0</version>
 
@@ -40,7 +40,7 @@
         <version>${jetty-version}</version>
         <configuration>
           <webApp>
-            <contextPath>/</contextPath>
+            <contextPath>/projects/Report_API/target/</contextPath>
           </webApp>
           <webAppSourceDirectory>target/${project.artifactId}-${project.version}</webAppSourceDirectory>
           <stopPort>8079</stopPort>
@@ -51,14 +51,6 @@
             <idleTimeout>60000</idleTimeout>
           </httpConnector>
         </configuration>
-
-        <dependencies>
-          <dependency>
-              <groupId>javax.validation</groupId>
-              <artifactId>validation-api</artifactId>
-              <version>${beanvalidation-version}</version>
-          </dependency>
-        </dependencies>
 
         <executions>
           <execution>

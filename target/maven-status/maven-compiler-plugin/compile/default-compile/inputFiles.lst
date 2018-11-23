@@ -1,0 +1,13 @@
+/projects/Report_API/src/gen/java/io/swagger/api/NotFoundException.java
+/projects/Report_API/src/gen/java/io/swagger/api/ApiException.java
+/projects/Report_API/src/main/java/io/swagger/api/Bootstrap.java
+/projects/Report_API/src/gen/java/io/swagger/model/ReportItem.java
+/projects/Report_API/src/gen/java/io/swagger/api/StringUtil.java
+/projects/Report_API/src/main/java/io/swagger/api/factories/ReportApiServiceFactory.java
+/projects/Report_API/src/gen/java/io/swagger/api/ApiResponseMessage.java
+/projects/Report_API/src/main/java/io/swagger/api/impl/ReportApiServiceImpl.java
+/projects/Report_API/src/gen/java/io/swagger/api/ReportApi.java
+/projects/Report_API/src/gen/java/io/swagger/api/ReportApiService.java
+/projects/Report_API/src/gen/java/io/swagger/api/ApiOriginFilter.java
+/projects/Report_API/src/gen/java/io/swagger/api/RFC3339DateFormat.java
+/projects/Report_API/src/gen/java/io/swagger/api/JacksonJsonProvider.java
