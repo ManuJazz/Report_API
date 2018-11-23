@@ -64,7 +64,7 @@ public class ReportApiServiceImpl extends ReportApiService {
     public Response updateReport(ReportItem body, SecurityContext securityContext) throws NotFoundException {
        ReportItem report_item = new ReportItem();
        for(int i = 0 ; i < reports_list.size();i++ ){
-            if(reports_list.get(i).getIdReport()==reportId){
+            if(reports_list.get(i).getIdReport()==body.getIdReport()){
                report_item=reports_list.get(i);
                report_item.setIdReport(body.getIdReport());
     	       report_item.setDate(body.getDate());
