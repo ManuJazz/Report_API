@@ -1,2 +1,7 @@
 language: java
 jdk: oraclejdk8
+deploy:
+  provider: heroku
+  api_key:
+    secure: c9c7d4a5-1896-43c8-9d9f-c717ff90e05d
+  app: report-api-remembranza
